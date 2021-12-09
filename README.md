@@ -27,6 +27,7 @@ brew install buildkit
 [Latest instruction](https://github.com/moby/buildkit#buildkit)
 
 3. Start Docker Buildkit daemon in rootless mode:
+Note: doesn't work
 ```shell
 # Start daemon
 rootlesskit buildkitd
