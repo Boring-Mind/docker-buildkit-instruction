@@ -1,7 +1,7 @@
 # Instructions how to set up Docker Buildkit in rootless mode
 
 1. Install HomeBrew
-```bash
+```shell
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
@@ -17,13 +17,13 @@ brew install gcc
 [Latest instruction](https://brew.sh/)
 
 2. Install Docker BuildKit
-```bash
+```shell
 brew install buildkit
 ```
 [Latest instruction](https://github.com/moby/buildkit#buildkit)
 
 3. Start Docker Buildkit daemon in rootless mode:
-```bash
+```shell
 # Start daemon
 rootlesskit buildkitd
 
