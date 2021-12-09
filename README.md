@@ -2,6 +2,10 @@
 
 1. Install HomeBrew
 ```shell
+# Install packages required by Brew
+sudo apt-get install build-essential
+
+# Install Brew
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
