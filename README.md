@@ -4,6 +4,16 @@
 ```bash
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
+
+Setup HomeBrew:
+```shell
+# Add brew to your PATH
+echo 'eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"' >> /home/username/.profile
+eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+
+# Install GCC (recommended)
+brew install gcc
+```
 [Latest instruction](https://brew.sh/)
 
 2. Install Docker BuildKit
